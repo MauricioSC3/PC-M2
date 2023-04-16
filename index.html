@@ -9,14 +9,32 @@
 </head>
 <body>
     <div class="container">
-hola
-<p>hola</p>
-        
+        <!-- Barra de navegación para busqueda de digimon -->
+        <nav class="=navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><strong>Buscador de Digimon por nombre!</strong></a>
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Komodon" arial-label="Search" id="nombre">
+                    <Button class="btn btn-dark" type="submit">Buscar</Button>
+                    <Button class="btn btn-danger" type="submit">Limpiar</Button>
+                </form>
+                </form>
+            </div>
+        </nav>
+        <!-- Resultado de busqueda de un digimon -->
+        <div class="card" id="resultado"></div>
+        <!-- Lista de Didimon -->
+        <div class="d-flex">
+            <h1 id="tituloLista">Listado de digimones</h1>
+            <div id="nombreDigimos"></div>
+        </div>
+        <!--  -->
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="Assets/Javascript/jquery-3.6.4.js"></script>
     <script src="Assets/Javascript/logica.js"></script>
-  </body>
 </body>
 </html>
